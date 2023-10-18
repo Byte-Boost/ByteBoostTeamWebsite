@@ -1,9 +1,7 @@
 # ByteBoost Team
  A site with all of our members
 
- >
->for the moment
->we recommend the local deployment of the site if you are insterested into looking into it 
+>for the moment we recommend the local deployment of the site if you are interested into looking into it 
 
 ## Requirements to run
 
