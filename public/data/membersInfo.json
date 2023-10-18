@@ -34,16 +34,17 @@
     "userId": "MVN",
     "name": "Markos Vinícius Nunes",
     "subtitle":"Full-Stack Dev",
-    "quote": "",
+    "quote": "Praised be the arch-wizards of the far-lands those that are the keepers of the documentation.",
     "socials": {
       "github": "https://github.com/MarkVN2",
-      "linkedin": "https://www.linkedin.com/in/markos-vin%C3%ADcius-nunes-230448268/"
+      "linkedin": "https://www.linkedin.com/in/markos-vin%C3%ADcius-nunes-230448268/",
+      "instagram":"https://www.instagram.com/markos_vn2/"
     }
   },
   {
     "userId": "VFF",
     "name": "Vinícius Felipe Forcato",
-    "subtitle":"",
+    "subtitle":"Full-Stack Dev",
     "quote": "",
     "socials": {
       "github": "https://github.com/nininhosam",
@@ -51,5 +52,12 @@
       "instagram": "https://www.instagram.com/nao_sou_felps/",
       "gmail": "mailto: viniciusforcato@yahoo.com.br"
     }
+  },
+  {
+    "userId":"BIA",
+    "name":"Bianca Capelo",
+    "subtitle":"",
+    "quote":"",
+    "socials":{}
   }
 ]
