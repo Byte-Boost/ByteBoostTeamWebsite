@@ -1,14 +1,38 @@
 
-import * as data from '../public/json/membersInfo.json';
+import * as data from '../public/data/membersInfo.json';
 import Image from 'next/image'
 
 const Home = () =>{
     return(
-      
-    <main className="flex min-h-screen flex-col">
+
+    <main className="flex min-h-screen flex-col relative   overflow-hidden">
+    <Image 
+    className="opacity-25 pointer-events-none grid-1 bg-repeat "
+    src="/grid.svg" 
+    alt='grid' 
+    objectFit='cover' 
+    layout='fill' 
+    objectPosition='center'
+    />
+     <Image 
+    className="opacity-25 pointer-events-none grid-2 bg-repeat left-96 "
+    src="/grid.svg" 
+    alt='grid' 
+    objectFit='cover' 
+    layout='fill' 
+    objectPosition='center'
+    />
+      <Image 
+    className="opacity-25 pointer-events-none grid-3 bg-repeat left-96 "
+    src="/grid.svg" 
+    alt='grid' 
+    objectFit='cover' 
+    layout='fill' 
+    objectPosition='center'
+    />
     <div className="bg-[#291A35]/30 backdrop-blur-bg min-w-screen h-10"></div>
     <section className="grid place-content-center">
-        <div className="bg-[#291A35]/50 backdrop-blur-bg h-fit lg:w-fit w-[19rem] m-10 rounded-3xl flex md:flex-row ">
+        <div className="bg-[#291A35]/60 backdrop-blur-bg h-fit lg:w-fit w-[19rem] m-10 rounded-3xl flex md:flex-row ">
             <div className="flex lg:flex-row flex-col ">
                 <img src="/favicon.ico" className=" aspect-square scale-[0.75] rounded-3xl relative pointer-events-none"  ></img>
                 <div className="p-12 ">
@@ -27,7 +51,7 @@ const Home = () =>{
                 var src = `/static/images/${userId}.jpg`;
                 return ( 
                     
-                <div className='rounded-2xl grid  w-72 h-[24rem] text-center teamcard' key={userId}>
+                <div className='rounded-2xl grid  w-72 h-[24rem] text-center teamcard' key={userId} id={userId}>
                     <div>
                         <h2 className=' font-JetBrains text-[#22DDA2] p-3'>{name}</h2>
                         <p className='font-JetBrains text-[#9F9F9F] text-[0.85rem]'>{subtitle}</p>
@@ -55,7 +79,7 @@ const Home = () =>{
     <section id='footer'>
         <div className="bg-[#291A35]/30 backdrop-blur-bg min-w-screen h-fit grid place-content-center">
             <h1 className='font-JetBrains text-white font-bold'>Copyright © 2023 Byte-Boost.</h1>
-            <a className='text-center font-JetBrains text-gray-400'>Version: v0.0.3-komodo</a>
+            <a className='text-center font-JetBrains text-gray-400'>Version: v0.0.31-komodo</a>
 
         </div>
 

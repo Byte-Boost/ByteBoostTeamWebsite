@@ -20,22 +20,50 @@
     transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 .teamcard:hover{
-    transform: scale(1.2);
+    transform: 
+    perspective(3000px)
+    rotateY(-20deg)
+    rotateX(0)
+    scale(1.2);
 }
 
-.decorative-grid{
-    background-image: url(../public/static/images/grid.svg);
-    animation: grid-move 2s infinite;
+.bg-default{
+    background:linear-gradient(to right,#6B3580,#169970);    
+}
+.grid-1{
+    animation: grid-move 5s linear infinite ;
+}
+.grid-2{
+    animation: grid-move 5s reverse infinite ;
+}
+.grid-3{
+    animation: pulse 5s forwards infinite ;
 }
 
+@keyframes pulse {
+    0%{opacity: 0%;}
+    25%{opacity: 20%;}
+    100%{opacity: 0%;}
+}
 @keyframes grid-move {
     0%{
-        transform: translate(0 , 0px);
+        opacity: 0%;
+        transform: 
+       
+        translate3d(0,0,0);
     }
+    25%{opacity: 20%;}
     100%{
-        transform: translate(100px , 100px);
+        opacity: 0%;
+        transform: 
+        perspective(2000px)
+        rotateX(5deg)
+        scale(1.2)
+        translate3d(50px,20px,0);
     }
 }
+
+
 @keyframes gradient-rotation {
     0%{
         --gradient-angle: 0deg;

@@ -8,7 +8,7 @@ import './globals.css'
 }){
   return (
     <html lang ="en">
-    <body className='bg-gradient-to-r from-[#6B3580] to-[#169970]'>{children}</body>
+    <body className='bg-default'>{children}</body>
     </html>
   )
 }
