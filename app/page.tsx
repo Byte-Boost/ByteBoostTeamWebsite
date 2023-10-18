@@ -1,11 +1,11 @@
 "use client";
 import { motion } from "framer-motion";
-import * as data from '../public/data/membersInfo.json';
+
 import Image from 'next/image'
 import { useState } from "react";
+import members from '../json/membersInfo.json';
 
-import Modal from "./components/modal";
-import Main from "./components/main";
+import Main from './components/main';
 
 
 const variants = {
@@ -37,14 +37,13 @@ const variants = {
 }
 
 const Home = () =>{
-
+    console.log(members);
+    const data = members;
+    console.log(data);
     const [flipped,setFlip] = useState(false);
 
     const unflip = () => setFlip(false);
     const flip = () => setFlip(true);
-
-        
-
 
     return(
 
