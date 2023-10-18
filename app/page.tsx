@@ -1,6 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
-import * as data from '../public/data/membersInfo.json';
+import * as data from './membersInfo.json';
 import Image from 'next/image'
 import { useState } from "react";
 
