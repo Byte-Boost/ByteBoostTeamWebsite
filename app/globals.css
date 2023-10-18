@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@property  --gradient-angle{
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+}
+
+
+.teamcard{
+    background:#291a3575;  
+    position: relative;
+    inset: 0;
+    isolation: isolate;
+    transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.teamcard:hover{
+    transform: scale(1.2);
+}
+
+.decorative-grid{
+    background-image: url(../public/static/images/grid.svg);
+    animation: grid-move 2s infinite;
+}
+
+@keyframes grid-move {
+    0%{
+        transform: translate(0 , 0px);
+    }
+    100%{
+        transform: translate(100px , 100px);
+    }
+}
+@keyframes gradient-rotation {
+    0%{
+        --gradient-angle: 0deg;
+    }
+    100%{
+        --gradient-angle:360deg;
+    }
+}
