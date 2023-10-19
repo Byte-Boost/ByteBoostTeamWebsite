@@ -2,8 +2,9 @@
   {
     "userId": "GAS",
     "name": "Gabriel Alves de Souza",
-    "subtitle":"",
+    "subtitle":"Project Manager|Dev",
     "quote": "The people who are crazy enough to think they can change the world are the ones who do. (Steve Jobs)",
+    "backquote":"",
     "socials": {
       "github": "https://github.com/gabriel15asouza",
       "linkedin": "https://www.linkedin.com/in/gabriel-alves-de-souza-5b7747267/"
@@ -14,6 +15,7 @@
     "name": "Jhuan Araújo de Souza",
     "subtitle":"",
     "quote": "",
+    "backquote":"",
     "socials": {
       "github": "https://github.com/TheRabbitDev",
       "linkedin": "https://www.linkedin.com/in/jhuan-ara%C3%BAjo-de-souza-372233230/",
@@ -22,9 +24,10 @@
   },
   {
     "userId": "MARS",
-    "name": "Marcos Antonio Rodrigues dos Santos",
+    "name": "Marcos Antonio Rodrigues",
     "subtitle":"",
     "quote": "",
+    "backquote":"",
     "socials": {
       "github": "https://github.com/Marcos-Antonio-Rodrigues-dos-Santos",
       "linkedin": "https://www.linkedin.com/in/marcos-antonio-329449268/"
@@ -35,6 +38,7 @@
     "name": "Markos Vinícius Nunes",
     "subtitle":"Full-Stack Dev",
     "quote": "Praised be the arch-wizards of the far-lands those that are the keepers of the documentation.",
+    "backquote":"i like making things",
     "socials": {
       "github": "https://github.com/MarkVN2",
       "linkedin": "https://www.linkedin.com/in/markos-vin%C3%ADcius-nunes-230448268/",
@@ -46,6 +50,7 @@
     "name": "Vinícius Felipe Forcato",
     "subtitle":"Full-Stack Dev",
     "quote": "",
+    "backquote":"",
     "socials": {
       "github": "https://github.com/nininhosam",
       "linkedin": "https://www.linkedin.com/in/vin%C3%ADcius-felipe-forcato-789462268/",
@@ -58,19 +63,37 @@
     "name":"Bianca Capelo",
     "subtitle":"",
     "quote":"",
-    "socials":{}
+    "backquote":"",
+    "socials":{
+      "github":"https://github.com/BiaCapelo",
+      "linkedin":"https://www.linkedin.com/in/bianca-capelo-279b3b20a/",
+      "instagram":"",
+      "gmail":""
+    }
   },
    {
     "userId":"DIE",
     "name":"Diego Vitvicki",
     "subtitle":"",
     "quote":"",
-    "socials":{}
+    "backquote":"",
+    "socials":{
+      "github":"https://github.com/dievit",
+      "linkedin":"https://www.linkedin.com/in/diegovitvicki/",
+      "instagram":"",
+      "gmail":""
+    }
   },{
     "userId":"JAQ",
     "name":"Jaqueline Maria",
     "subtitle":"",
     "quote":"",
-    "socials":{}
+    "backquote":"",
+    "socials":{
+      "github":"https://github.com/jaquemfvs",
+      "linkedin":"https://www.linkedin.com/in/jaqueline-maria-fran%C3%A7a-veloso-silva/",
+      "instagram":"",
+      "gmail":""
+    }
   }
 ]
