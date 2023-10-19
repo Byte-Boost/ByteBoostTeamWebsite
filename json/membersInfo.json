@@ -42,7 +42,8 @@
     "socials": {
       "github": "https://github.com/MarkVN2",
       "linkedin": "https://www.linkedin.com/in/markos-vin%C3%ADcius-nunes-230448268/",
-      "instagram":"https://www.instagram.com/markos_vn2/"
+      "instagram":"https://www.instagram.com/markos_vn2/",
+      "twitter":"a"
     }
   },
   {
@@ -55,7 +56,8 @@
       "github": "https://github.com/nininhosam",
       "linkedin": "https://www.linkedin.com/in/vin%C3%ADcius-felipe-forcato-789462268/",
       "instagram": "https://www.instagram.com/nao_sou_felps/",
-      "gmail": "mailto: viniciusforcato@yahoo.com.br"
+      "gmail": "mailto: viniciusforcato@yahoo.com.br",
+      "twitter":""
     }
   },
   {
@@ -68,7 +70,8 @@
       "github":"https://github.com/BiaCapelo",
       "linkedin":"https://www.linkedin.com/in/bianca-capelo-279b3b20a/",
       "instagram":"",
-      "gmail":""
+      "gmail":"",
+      "twitter":""
     }
   },
    {
@@ -81,7 +84,8 @@
       "github":"https://github.com/dievit",
       "linkedin":"https://www.linkedin.com/in/diegovitvicki/",
       "instagram":"",
-      "gmail":""
+      "gmail":"",
+      "twitter":""
     }
   },{
     "userId":"JAQ",
@@ -93,7 +97,8 @@
       "github":"https://github.com/jaquemfvs",
       "linkedin":"https://www.linkedin.com/in/jaqueline-maria-fran%C3%A7a-veloso-silva/",
       "instagram":"",
-      "gmail":""
+      "gmail":"",
+      "twitter":""
     }
   }
 ]
