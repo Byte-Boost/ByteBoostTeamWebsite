@@ -76,7 +76,7 @@ const Home = () =>{
         <motion.div initial="hidden" animate="visible" whileHover={{ scale: 1.2 }} whileTap={{scale:1.0}} variants={variants} className="bg-[#291A35]/60 backdrop-blur-bg h-fit lg:w-fit w-[19rem] m-10 rounded-3xl flex md:flex-row team-header cursor-pointer">
             <div className="flex lg:flex-row flex-col ">
                 <a className="flex lg:flex-row flex-col"href="https://github.com/Byte-Boost" target="_blank">
-                <img src="/favicon.ico" className=" aspect-square scale-[0.75] rounded-3xl relative pointer-events-none"  ></img>
+                <img src="/static/images/bb-logo-solid-green.png" className=" aspect-square scale-[0.75] rounded-3xl relative pointer-events-none w-[256px] h-[256px]"  ></img>
                 <div className="p-12 ">
                     <h1 className="font-extrabold font-JetBrains text-white text-[3.5rem]">BYTE-BOOST</h1>
                     <p className="font-JetBrains text-gray-300">"Quotes here mate"</p>
