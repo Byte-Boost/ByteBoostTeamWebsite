@@ -7,6 +7,7 @@ import members from '../json/membersInfo.json';
 
 import Main from './components/main';
 import SocialMedia from "./components/socialmedia";
+import Card from "./components/card";
 
 
 const variants = {
@@ -39,6 +40,7 @@ const variants = {
 
 const Home = () =>{
     const data = members;
+
     const [flipped,setFlip] = useState(false);
 
     const unflip = () => setFlip(false);
@@ -90,60 +92,9 @@ const Home = () =>{
         <h1 className='font-JetBrains font-bold text-white text-center text-[2rem] p-5'>MEET THE TEAM</h1>
         <div className="grid gap-20 lg:grid-cols-4 lg:p-20 md:grid-cols-1 p-24" id='card-container'>
             {data.map(result => {
-                const {userId, name,subtitle,quote,backquote,socials} = result;
-                var src = `/static/images/${userId}.jpg`;
-
-                let hasGit = socials.github? true : false ;
-
-                let hasLinkend = socials.linkedin? true : false;
-
-                let hasInstagram = socials.instagram? true: false;
-
-                let hasGmail = socials.gmail? true:false;
-
-                let hasTwitter = socials.twitter? true:false;
-        
+                const {userId} = result;
                 return ( 
-                <motion.div className={ `rounded-2xl grid  w-72 h-[24rem] text-center ${flipped? null:"cursor-pointer"} team-card`} key={userId} id={userId} initial="hidden" animate={flipped? "rotate":"visible"} whileHover={{ scale: 1.2 }}  whileTap={{scale:1.1}}  onClick={(e) =>  {flipped? setFlip(false):setFlip(true) ; console.log(flipped)}} variants={variants}>
-                    {/* back-card */}
-                <motion.div className=' w-72 h-[24rem] team-card-back absolute grid ' key={userId} id={userId} initial="hidden" animate={flipped?"rotate":"rotate_180"}  whileTap={{zIndex:1}}  variants={variants}>
-                        <div>
-                        <h2 className=' font-JetBrains card-title p-3'>{name}</h2>
-                        <p className='font-JetBrains text-[#9F9F9F] text-[0.85rem]'>{subtitle}</p>
-                      
-                        {hasGit && <SocialMedia link={socials.github } social="github" className="visible social-icon z-50"></SocialMedia>}
-                        {hasLinkend && <SocialMedia link={socials.linkedin} social="linkedin"  className="visible  social-icon z-50"></SocialMedia>}
-                        {hasInstagram && <SocialMedia link={socials.instagram} social="instagram"  className="visible  social-icon"></SocialMedia>}
-                        {hasGmail && <SocialMedia link={socials.gmail} social="gmail"  className="visible  social-icon" ></SocialMedia>}
-                        {hasTwitter && <SocialMedia link={socials.twitter} social="twitter"  className="visible  social-icon"></SocialMedia>}
-                        
-                        
-                        <p className="font-JetBrains text-white">{backquote}</p>
-                         <button className="text-center font-JetBrains text-gray-400 text-sm">Click to flip</button>
-                        </div>
-                        
-                </motion.div>
-                    
-                <motion.div className={`rounded-2xl grid  w-72 h-[24rem] text-center team-card-front ${flipped? "hidden":null}`} animate={flipped?"hidden":"visible"} variants={variants}>
-                    <div>
-                        <h2 className=' font-JetBrains card-title p-3'>{name}</h2>
-                        <p className='font-JetBrains text-[#9F9F9F] text-[0.85rem]'>{subtitle}</p>
-                    </div>
-                    <div className='text-center grid place-content-center'>
-
-                    <Image
-                    src={src} 
-                    className='rounded-[3.5rem] pointer-events-none'
-                    alt="userprofile" 
-                    width={150} 
-                    height={150}
-                    />
-                
-                    </div>
-                    <p className='font-JetBrains text-white p-3  '>"{quote}"</p>
-                    <p className="text-center font-JetBrains text-gray-400 text-sm">Click to see contacts</p>
-                </motion.div> 
-                </motion.div>
+                    <Card result={result} variants={variants} key={userId}></Card>
                  )
             })}
         </div>
@@ -154,7 +105,7 @@ const Home = () =>{
     <section>
         <footer className=" grid place-content-center">
             <h1 className='font-JetBrains text-white font-bold'>Copyright © 2023 Byte-Boost.</h1>
-            <a className=' text-center font-JetBrains text-gray-400'>Version: v0.2.8-camel</a>
+            <a className=' text-center font-JetBrains text-gray-400'>Version: v0.3.0-frog</a>
         </footer>
 
     </section>
