@@ -11,7 +11,9 @@ const Card = ({result,variants}) => {
     const unflip = () => setFlip(false);
     const flip = () => setFlip(true);
 
-    const {userId, name,subtitle,quote,backquote,socials} = result;
+    const {userId, name,subtitle,quote,quote_author,backquote,socials} = result;
+
+    const regex = new RegExp('/(Steve Jobs)/')
     
     var src = `/static/images/${userId}.jpg`;
 
@@ -24,6 +26,9 @@ const Card = ({result,variants}) => {
     let hasGmail = socials.gmail? true:false;
 
     let hasTwitter = socials.twitter? true:false;
+
+    let hasQuote = quote? true: false;
+    let hasAuthor = quote_author? true:false;
 
 
     return(
@@ -63,7 +68,8 @@ const Card = ({result,variants}) => {
         />
     
         </div>
-        <p className='font-JetBrains text-white p-3  '>"{quote}"</p>
+        {hasQuote && <p className='font-JetBrains text-white p-2  '>"{quote}"</p>}
+        {hasAuthor && <p className='font-JetBrains text-gray-200 '>({quote_author})</p> }
         <p className="text-center font-JetBrains text-gray-400 text-sm">Click to see contacts</p>
     </motion.div> 
     </motion.div>

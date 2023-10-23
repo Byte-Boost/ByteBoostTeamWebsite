@@ -3,7 +3,8 @@
     "userId": "GAS",
     "name": "Gabriel Alves de Souza",
     "subtitle":"Project Manager|Dev",
-    "quote": "The people who are crazy enough to think they can change the world are the ones who do. (Steve Jobs)",
+    "quote": "The people who are crazy enough to think they can change the world are the ones who do.",
+    "quote_author":"Steve Jobs",
     "backquote":"",
     "socials": {
       "github": "https://github.com/gabriel15asouza",
@@ -15,6 +16,7 @@
     "name": "Jhuan Araújo de Souza",
     "subtitle":"",
     "quote": "",
+    "quote_author":"",
     "backquote":"",
     "socials": {
       "github": "https://github.com/TheRabbitDev",
@@ -27,6 +29,7 @@
     "name": "Marcos Antonio Rodrigues",
     "subtitle":"",
     "quote": "",
+    "quote_author":"",
     "backquote":"",
     "socials": {
       "github": "https://github.com/Marcos-Antonio-Rodrigues-dos-Santos",
@@ -38,6 +41,7 @@
     "name": "Markos Vinícius Nunes",
     "subtitle":"Full-Stack Dev",
     "quote": "Praised be the arch-wizards of the far-lands those that are the keepers of the documentation.",
+    "quote_author":"",
     "backquote":"i like creating things",
     "socials": {
       "github": "https://github.com/MarkVN2",
@@ -51,6 +55,7 @@
     "name": "Vinícius Felipe Forcato",
     "subtitle":"Full-Stack Dev",
     "quote": "",
+    "quote_author":"",
     "backquote":"",
     "socials": {
       "github": "https://github.com/nininhosam",
@@ -65,6 +70,7 @@
     "name":"Bianca Capelo",
     "subtitle":"",
     "quote":"",
+    "quote_author":"",
     "backquote":"",
     "socials":{
       "github":"https://github.com/BiaCapelo",
@@ -78,7 +84,8 @@
     "userId":"DIE",
     "name":"Diego Vitvicki",
     "subtitle":"Product Owner | Dev",
-    "quote":"Curiosity is more important than knowledge. (Albert Einstein)",
+    "quote":"Curiosity is more important than knowledge.",
+    "quote_author":"Albert Einstein",
     "backquote":"If I don't know I'll learn.",
     "socials":{
       "github":"https://github.com/dievit",
@@ -92,6 +99,7 @@
     "name":"Jaqueline Maria",
     "subtitle":"",
     "quote":"",
+    "quote_author":"",  
     "backquote":"",
     "socials":{
       "github":"https://github.com/jaquemfvs",
