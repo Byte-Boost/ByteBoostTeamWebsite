@@ -1,7 +1,8 @@
 # ByteBoost Team
- A site with all of our members
+ A site with all of our members 
 
->for the moment we recommend the local deployment of the site if you are interested into looking into it 
+> [!NOTE]
+> The site can be  accessed through this [link](https://byte-boost-team-website.vercel.app)
 
 ## Requirements to run
 
@@ -12,8 +13,8 @@
 Inside a directory of your choice open the commandline and type
 
 ```
-git clone https://github.com/Byte-Boost/ByteBoost.team_website
-cd ByteBoost.team_website
+git clone https://github.com/Byte-Boost/ByteBoostTeamWebsite
+cd ByteBoostTeamWebsite
 npm install
 npm run dev
 ```
