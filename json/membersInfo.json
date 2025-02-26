@@ -1,23 +1,140 @@
 [
   {
-    "userId": "GAS",
-    "name": "Gabriel Alves de Souza",
-    "subtitle":"Project Manager|Dev",
-    "quote": "The people who are crazy enough to think they can change the world are the ones who do.",
-    "quote_author":"Steve Jobs",
-    "backquote":"",
+    "userId": "MVN",
+    "name": "Markos Vinícius Nunes",
+    "subtitle": "Full-Stack Dev",
+    "quote": "Praised be the arch-wizards of the far-lands those that are the keepers of the documentation.",
+    "quote_author": "",
+    "backquote": "i like creating things",
+    "active": true,
+    "active_semesters": [1,1,1,1,1,0],
     "socials": {
-      "github": "https://github.com/gabriel15asouza",
-      "linkedin": "https://www.linkedin.com/in/gabriel-alves-de-souza-5b7747267/"
+      "github": "https://github.com/MarkVN2",
+      "linkedin": "https://www.linkedin.com/in/markos-vinícius-nunes-230448268/",
+      "instagram": "https://www.instagram.com/markos_vn2/",
+      "twitter": ""
+    }
+  },
+  {
+    "userId": "VFF",
+    "name": "Vinícius Felipe Forcato",
+    "subtitle": "Full-Stack Dev",
+    "quote": "Magic is just science we don't understand. Which is why i'll start calling myself a wizard from now on",
+    "quote_author": "",
+    "backquote": "Loves nonsense and pointless things",
+    "active": true,
+    "active_semesters": [1,1,1,1,1,0],
+    "socials": {
+      "github": "https://github.com/nininhosam",
+      "linkedin": "https://www.linkedin.com/in/vinícius-felipe-forcato-789462268/",
+      "instagram": "https://www.instagram.com/nao_sou_felps/",
+      "twitter": ""
+    }
+  },
+  {
+    "userId": "MAR",
+    "name": "Marcos Antonio Rodrigues",
+    "subtitle": "",
+    "quote": "",
+    "quote_author": "",
+    "backquote": "",
+    "active": true,
+    "active_semesters": [1,1,1,1,0,0],
+    "socials": {
+      "github": "https://github.com/oOutroMarcos",
+      "linkedin": "https://www.linkedin.com/in/marcos-antonio-329449268/"
+    }
+  },
+  {
+    "userId": "JAQ",
+    "name": "Jaqueline Maria",
+    "subtitle": "",
+    "quote": "",
+    "quote_author": "",
+    "backquote": "",
+    "active": true,
+    "active_semesters": [0,1,1,1,1,0],
+    "socials": {
+      "github": "https://github.com/jaquemfvs",
+      "linkedin": "https://www.linkedin.com/in/jaqueline-maria-fran%C3%A7a-veloso-silva/",
+      "instagram": "",
+      "gmail": "",
+      "twitter": ""
+    }
+  },
+  {
+    "userId": "SAN",
+    "name": "Sandro Roberto Pimentel",
+    "subtitle": "",
+    "quote": "",
+    "quote_author": "",
+    "active": true,
+    "active_semesters": [0,0,0,1,1,0],
+    "socials": {
+      "github": "https://github.com/Sandro-Pimentel",
+      "linkedin": "https://www.linkedin.com/in/sandro-roberto-pimentel-junior-1287a3254/",
+      "instagram": "",
+      "gmail": "",
+      "twitter": ""
+    }
+  },
+  {
+    "userId": "VIT",
+    "name": "Vitor Henrique Saborito",
+    "subtitle": "",
+    "quote": "",
+    "quote_author": "",
+    "active": true,
+    "active_semesters": [0,0,0,1,1,0],
+    "socials": {
+      "github": "https://github.com/VituuSaborito",
+      "linkedin": "https://www.linkedin.com/in/vitor-henrique-saborito-216219268",
+      "instagram": "",
+      "gmail": "",
+      "twitter": ""
+    }
+  },
+  {
+    "userId": "JOA",
+    "name": "João Eduardo Messias",
+    "subtitle": "",
+    "quote": "",
+    "quote_author": "",
+    "active": true,
+    "active_semesters": [0,0,0,1,1,0],
+    "socials": {
+      "github": "https://github.com/joao-eduardo17",
+      "linkedin": "https://www.linkedin.com/in/jo%C3%A3o-eduardo-messias-a3019125b/",
+      "instagram": "",
+      "gmail": "",
+      "twitter": ""
+    }
+  },
+  {
+    "userId": "ART",
+    "name": "Arthur Sousa Silva",
+    "subtitle": "",
+    "quote": "",
+    "quote_author": "",
+    "active": true,
+    "active_semesters": [0,0,1,0,1,0],
+    "socials": {
+      "github": "https://github.com/Meowo2",
+      "linkedin": "https://www.linkedin.com/in/arthur-sousa-silva/",
+      "instagram": "",
+      "gmail": "",
+      "twitter": ""
     }
   },
   {
     "userId": "JAS",
     "name": "Jhuan Araújo de Souza",
-    "subtitle":"",
-    "quote": "",
-    "quote_author":"",
-    "backquote":"",
+    "subtitle": "",
+    "quote": "I think we ought to read only the kind of books that wound or stab us. If the book we're reading doesn't wake us up with a blow to the head, what are we reading for?",
+    "quote_author": "Franz Kafka",
+    "backquote": "",
+    "active": false,
+    "active_semesters": [1,1,1,0,0,0],
     "socials": {
       "github": "https://github.com/TheRabbitDev",
       "linkedin": "https://www.linkedin.com/in/jhuan-ara%C3%BAjo-de-souza-372233230/",
@@ -25,87 +142,51 @@
     }
   },
   {
-    "userId": "MARS",
-    "name": "Marcos Antonio Rodrigues",
-    "subtitle":"",
-    "quote": "",
-    "quote_author":"",
-    "backquote":"",
-    "socials": {
-      "github": "https://github.com/oOutroMarcos",
-      "linkedin": "https://www.linkedin.com/in/marcos-antonio-329449268/"
-    }
-  },
-  {
-    "userId": "MVN",
-    "name": "Markos Vinícius Nunes",
-    "subtitle":"Full-Stack Dev",
-    "quote": "Praised be the arch-wizards of the far-lands those that are the keepers of the documentation.",
-    "quote_author":"",
-    "backquote":"i like creating things",
-    "socials": {
-      "github": "https://github.com/MarkVN2",
-      "linkedin": "https://www.linkedin.com/in/markos-vinícius-nunes-230448268/",
-      "instagram":"https://www.instagram.com/markos_vn2/",
-      "twitter":""
-    }
-  },
-  {
-    "userId": "VFF",
-    "name": "Vinícius Felipe Forcato",
-    "subtitle":"Full-Stack Dev",
-    "quote": "Magic is just science we don't understand. Which is why i'll start calling myself a wizard from now on",
-    "quote_author":"",
-    "backquote":"Loves nonsense and pointless things",
-    "socials": {
-      "github": "https://github.com/nininhosam",
-      "linkedin": "https://www.linkedin.com/in/vinícius-felipe-forcato-789462268/",
-      "instagram": "https://www.instagram.com/nao_sou_felps/",
-      "twitter":""
-    }
-  },
-  {
-    "userId":"BIA",
-    "name":"Bianca Capelo",
-    "subtitle":"",
-    "quote":"Well, i must endure the presence of a few caterpillars if i wish to become acquainted with the butterflies",
-    "quote_author":"Antoine de Saint-Exupéry",
-    "backquote":"",
-    "socials":{
-      "github":"https://github.com/BiaCapelo",
-      "linkedin":"https://www.linkedin.com/in/bianca-capelo-279b3b20a/",
-      "instagram":"https://www.instagram.com/bianca_olepac/",
-      "gmail":"",
-      "twitter":""
-    }
-  },
-   {
-    "userId":"DIE",
+    "userId": "DIE",
     "name":"Diego Vitvicki",
-    "subtitle":"Product Owner | Dev",
+    "subtitle":"Product Owner / Dev ",
     "quote":"Curiosity is more important than knowledge.",
-    "quote_author":"Albert Einstein",
-    "backquote":"If I don't know I'll learn.",
-    "socials":{
-      "github":"https://github.com/dievit",
-      "linkedin":"https://www.linkedin.com/in/diegovitvicki/",
-      "instagram":"",
-      "gmail":"",
-      "twitter":""
+    "quote_author": "Albert Einstein",
+    "backquote": "If I don't know I'll learn.",
+    "active": false,
+    "active_semesters": [0,1,1,0,0,0],
+    "socials": {
+      "github": "https://github.com/dievit",
+      "linkedin": "https://www.linkedin.com/in/diegovitvicki/",
+      "instagram": "",
+      "gmail": "",
+      "twitter": ""
     }
-  },{
-    "userId":"JAQ",
-    "name":"Jaqueline Maria",
-    "subtitle":"",
-    "quote":"",
-    "quote_author":"",  
-    "backquote":"",
-    "socials":{
-      "github":"https://github.com/jaquemfvs",
-      "linkedin":"https://www.linkedin.com/in/jaqueline-maria-fran%C3%A7a-veloso-silva/",
-      "instagram":"",
-      "gmail":"",
-      "twitter":""
+  },
+  {
+    "userId": "GAS",
+    "name": "Gabriel Alves de Souza",
+    "subtitle": "Project Manager / Dev",
+    "quote": "The people who are crazy enough to think they can change the world are the ones who do.",
+    "quote_author": "Steve Jobs",
+    "backquote": "",
+    "active": false,
+    "active_semesters": [1,1,0,0,0,0],
+    "socials": {
+      "github": "https://github.com/gabriel15asouza",
+      "linkedin": "https://www.linkedin.com/in/gabriel-alves-de-souza-5b7747267/"
+    }
+  },
+  {
+    "userId": "BIA",
+    "name": "Bianca Capelo",
+    "subtitle": "",
+    "quote": "Well, i must endure the presence of a few caterpillars if i wish to become acquainted with the butterflies",
+    "quote_author": "Antoine de Saint-Exupéry",
+    "backquote": "",
+    "active": false,
+    "active_semesters": [0,1,0,0,0,0],
+    "socials": {
+      "github": "https://github.com/BiaCapelo",
+      "linkedin": "https://www.linkedin.com/in/bianca-capelo-279b3b20a/",
+      "instagram": "https://www.instagram.com/bianca_olepac/",
+      "gmail": "",
+      "twitter": ""
     }
   }
 ]
