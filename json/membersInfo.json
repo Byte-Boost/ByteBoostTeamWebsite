@@ -6,6 +6,7 @@
     "quote": "The people who are crazy enough to think they can change the world are the ones who do.",
     "quote_author":"Steve Jobs",
     "backquote":"",
+    "active":"false",
     "socials": {
       "github": "https://github.com/gabriel15asouza",
       "linkedin": "https://www.linkedin.com/in/gabriel-alves-de-souza-5b7747267/"
@@ -18,6 +19,7 @@
     "quote": "",
     "quote_author":"",
     "backquote":"",
+    "active":"false",
     "socials": {
       "github": "https://github.com/TheRabbitDev",
       "linkedin": "https://www.linkedin.com/in/jhuan-ara%C3%BAjo-de-souza-372233230/",
@@ -31,6 +33,7 @@
     "quote": "",
     "quote_author":"",
     "backquote":"",
+    "active":"true",
     "socials": {
       "github": "https://github.com/oOutroMarcos",
       "linkedin": "https://www.linkedin.com/in/marcos-antonio-329449268/"
@@ -43,6 +46,7 @@
     "quote": "Praised be the arch-wizards of the far-lands those that are the keepers of the documentation.",
     "quote_author":"",
     "backquote":"i like creating things",
+    "active":"true",
     "socials": {
       "github": "https://github.com/MarkVN2",
       "linkedin": "https://www.linkedin.com/in/markos-vinícius-nunes-230448268/",
@@ -57,6 +61,7 @@
     "quote": "Magic is just science we don't understand. Which is why i'll start calling myself a wizard from now on",
     "quote_author":"",
     "backquote":"Loves nonsense and pointless things",
+    "active":"true",
     "socials": {
       "github": "https://github.com/nininhosam",
       "linkedin": "https://www.linkedin.com/in/vinícius-felipe-forcato-789462268/",
@@ -71,6 +76,7 @@
     "quote":"Well, i must endure the presence of a few caterpillars if i wish to become acquainted with the butterflies",
     "quote_author":"Antoine de Saint-Exupéry",
     "backquote":"",
+    "active":"false",
     "socials":{
       "github":"https://github.com/BiaCapelo",
       "linkedin":"https://www.linkedin.com/in/bianca-capelo-279b3b20a/",
@@ -86,6 +92,7 @@
     "quote":"Curiosity is more important than knowledge.",
     "quote_author":"Albert Einstein",
     "backquote":"If I don't know I'll learn.",
+    "active":"false",
     "socials":{
       "github":"https://github.com/dievit",
       "linkedin":"https://www.linkedin.com/in/diegovitvicki/",
@@ -100,9 +107,66 @@
     "quote":"",
     "quote_author":"",  
     "backquote":"",
+    "active":"true",
     "socials":{
       "github":"https://github.com/jaquemfvs",
       "linkedin":"https://www.linkedin.com/in/jaqueline-maria-fran%C3%A7a-veloso-silva/",
+      "instagram":"",
+      "gmail":"",
+      "twitter":""
+    }
+  },{
+    "userId":"ART",
+    "name":"Arthur",
+    "subtitle":"",
+    "quote":"",
+    "quote_author":"",
+    "active":"true",
+    "socials":{
+      "github":"https://github.com/",
+      "linkedin":"https://www.linkedin.com/in/",
+      "instagram":"",
+      "gmail":"",
+      "twitter":""
+    }
+  },{
+    "userId":"SAN",
+    "name":"Sandro",
+    "subtitle":"",
+    "quote":"",
+    "quote_author":"",
+    "active":"true",
+    "socials":{
+      "github":"https://github.com/",
+      "linkedin":"https://www.linkedin.com/in/",
+      "instagram":"",
+      "gmail":"",
+      "twitter":""
+    }
+  },{
+    "userId":"SAB",
+    "name":"Victor Saborito",
+    "subtitle":"",
+    "quote":"",
+    "quote_author":"",
+    "active":"true",
+    "socials":{
+      "github":"https://github.com/",
+      "linkedin":"https://www.linkedin.com/in/",
+      "instagram":"",
+      "gmail":"",
+      "twitter":""
+    }
+  },{
+    "userId":"JOA",
+    "name":"João",
+    "subtitle":"",
+    "quote":"",
+    "quote_author":"",
+    "active":"true",
+    "socials":{
+      "github":"https://github.com/",
+      "linkedin":"https://www.linkedin.com/in/",
       "instagram":"",
       "gmail":"",
       "twitter":""
