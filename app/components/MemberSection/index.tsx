@@ -17,7 +17,7 @@ const MemberSection = ({ result }) => {
 
   var pic_src = `/static/images/${userId}.jpg`;
   return (
-    <div className="flex h-48">
+    <div className="flex md:h-48 h-[50vh] md:flex-row flex-col">
       <div className=" pl-10 items-center flex bg-[#2b3036] basis-1/2  text-white font-JetBrains font-bold overflow-hidden">
         <div className="transform scale-110">
           <Image
@@ -34,7 +34,7 @@ const MemberSection = ({ result }) => {
           {subtitle ?
             <div className="relative text-white font-bold  px-6 py-2">
               <div
-                className="absolute inset-0 bg-[#f8f3f2] transform z-0"
+                className="absolute inset-0 bg-[#f8f3f2]  max-sm:w-[210px] transform z-0"
                 style={{
                   clipPath: 'polygon(0 0, 100% 0, 90% 100%, 0 100%)',
                 }}
@@ -44,7 +44,7 @@ const MemberSection = ({ result }) => {
             :
             <div className="relative text-white font-bold  px-6 py-2">
               <div
-                className="absolute inset-0 bg-[#f8f3f2] w-[210px] transform z-0"
+                className="absolute inset-0 bg-[#f8f3f2] md:w-[210px] w-[210px] transform z-0"
                 style={{
                   clipPath: 'polygon(0 0, 100% 0, 90% 100%, 0 100%)',
                 }}
@@ -65,7 +65,7 @@ const MemberSection = ({ result }) => {
             :
             <div className="relative text-white font-bold inline-block px-6 py-2">
               <div
-                className="absolute inset-0 bg-[#040011] w-[190px] transform z-0"
+                className="absolute inset-0 bg-[#040011] w-[190px]  transform z-0"
                 style={{
                   clipPath: 'polygon(0 0, 100% 0, 90% 100%, 0 100%)',
                 }}
@@ -96,7 +96,7 @@ const MemberSection = ({ result }) => {
             </div>
           }
         </div>
-        <div className="basis-1/3">{/*socials/bottom-div*/}
+        <div className="basis-1/3 ">{/*socials/bottom-div*/}
           <Socials className={''} socials={socials}></Socials>
         </div>
       </div>

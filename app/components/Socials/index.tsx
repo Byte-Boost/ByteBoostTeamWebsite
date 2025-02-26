@@ -11,7 +11,7 @@ const Socials = ({ socials, className }) => {
     };
     return (
         
-        <div className="flex flex-row gap-5 pl-10 pt-2">
+        <div className="flex flex-row gap-5 pl-10 pt-2 justify-center md:justify-normal">
             {Object.entries(socials)
                 .filter(([key, value]) => value) // Remove empty values
                 .map(([key, value]) => {
@@ -20,7 +20,7 @@ const Socials = ({ socials, className }) => {
                         <div key={key} className=" flex place-content-center">
                             <div className={className}>
                                 <a href={value as string} target="_blank" rel="noopener noreferrer" className="flex place-content-center cursor-pointer hover:scale-125 transition-all">
-                                    {iconComponents ? <IconComponent className="w-7 h-7 text-white fill-white" /> : key}
+                                    {iconComponents ? <IconComponent className="md:w-7 md:h-7 w-10 h-10 text-white fill-white " /> : key}
                                 </a>
                             </div>
                         </div>
