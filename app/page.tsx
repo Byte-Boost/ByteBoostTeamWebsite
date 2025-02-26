@@ -16,7 +16,7 @@ const App = () => {
             </a>
             <div className="text-center">
               <h1 className="font-extrabold font-JetBrains text-white text-[2.5rem]">BYTE-BOOST</h1>
-              <p className="text-white opacity-40 font-JetBrains text-[1rem] mt-2 cursor-not-allowed">Projects</p> 
+              <a href="https://github.com/orgs/Byte-Boost/repositories" className="text-white opacity-40 font-JetBrains text-[1rem] mt-2 cursor-pointer">Projects</a> 
             </div>
           </div>
         </div>
