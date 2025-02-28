@@ -1,0 +1,63 @@
+[
+  {
+    "name": "Scrum-Platform",
+    "icon": "",
+    "semester": 1,
+    "link_github": "/Byte-Boost/Plataforma-Scrum",
+    "link": "https://plataforma-scrum.vercel.app/",
+    "description": "A Platform for learning about the Agile Methodology : Scrum. This project didn't have much in the way of a back-end as it was a simple website for learning scrum having most of it work and dedication on the front-end",
+    "partner": "FATEC",
+    "members": {
+      "scrum_master": {
+        "id": "MVN",
+        "description": "Scrum Master for the later 3 Sprints of the Project, worked mainly on the styling and responsivity of the site,vercel deployement and also responsible for the forms and some translations."
+      },
+      "product_owner": {
+        "id": "GAS",
+        "description": "Product Owner for all of the project, focused on organizing the project and also working on the front-end of the site"
+      },
+      "dev_team": {
+        "VFF": {
+          "id": "VFF",
+          "description": "Worked on the Dark-Mode also responsible for translation of the website"
+        },
+        "MAR": {
+          "id": "MAR",
+          "description": "Responsible for working on the Backlog,Product Owner pages and for a visibility pass on the text for better reading experience"
+        },
+        "JAS": {
+          "id": "JAS",
+          "description": "Worked on the Icon of the project and Tutorial,Glossary pages"
+        }
+      }
+    },
+    "tech": {
+      "Python": {
+        "link": "",
+        "icon": ""
+      },
+      "Javascript": {
+        "link": "",
+        "icon": ""
+      },
+      "BootStrap": {
+        "link": "",
+        "icon": ""
+      }
+    },
+    "tools": {
+      "Github": {
+        "link": "",
+        "icon": ""
+      },
+      "VScode": {
+        "link": "",
+        "icon": ""
+      },
+      "Figma": {
+        "link": "",
+        "icon": ""
+      }
+    }
+  }
+]

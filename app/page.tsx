@@ -1,11 +1,13 @@
 import React from "react";
 
 import members from '../json/membersInfo.json';
+import projects from '../json/projectsinfo.json'
 import MemberSection from "./components/MemberSection";
+import ProjectSection from "./components/ProjectSection";
 
 const App = () => {
-  const data = members;
-
+  const data_members = members;
+  const data_projects = projects;
   return (
     <div>
       <section className="grid place-content-center">
@@ -25,11 +27,21 @@ const App = () => {
       <section>
         <div className="bg-[#191F29] border-t-8 border-transparent" style={{ borderImage: 'linear-gradient(to right, #FDDE5C, #F8AB5C, #F56A62, #A176C8, #759BEB, #65BEB3, #70DB96) 1' }}>
           <h1 className='font-JetBrains font-bold text-white text-center text-[2rem] p-5'>MEET THE TEAM</h1>
-          {data.map(result => {
+          {data_members.map(result => {
             const { userId } = result;
             return (
               <div className="py-9">
-                <MemberSection key={userId} result={result}></MemberSection>
+                <MemberSection key={"member"+userId} result={result}/>
+              </div>
+            )
+          })}
+          {/*Projects*/}
+         <h1 className='font-JetBrains font-bold text-white text-center text-[2rem] p-5' id="projects" >PROJECTS</h1> 
+        {data_projects.map(result => {
+            const { name } = result;
+            return (
+              <div className="py-9">
+                <ProjectSection key={"project"+ name} result={result}/>
               </div>
             )
           })}
