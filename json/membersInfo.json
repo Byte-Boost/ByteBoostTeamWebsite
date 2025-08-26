@@ -187,6 +187,19 @@
       "instagram": "https://www.instagram.com/bianca_olepac/",
       "gmail": "",
       "twitter": ""
-    }
+    },
+    {
+    "userId": "GAL",
+    "name": "Gabriel Angelis",
+    "subtitle": "",
+    "quote": "",
+    "quote_author": "",
+    "backquote": "",
+    "active": true,
+    "active_semesters": [0,0,0,0,0,1],
+    "socials": {
+      "github": "https://github.com/GabrAngelis",
+      "linkedin": "https://www.linkedin.com/in/gabriel-luis-de-angelis/",
+    },
   }
 ]
