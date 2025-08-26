@@ -7,7 +7,7 @@
     "quote_author": "",
     "backquote": "i like creating things",
     "active": true,
-    "active_semesters": [1,1,1,1,1,0],
+    "active_semesters": [1,1,1,1,1,1],
     "socials": {
       "github": "https://github.com/MarkVN2",
       "linkedin": "https://www.linkedin.com/in/markos-vinícius-nunes-230448268/",
@@ -23,7 +23,7 @@
     "quote_author": "",
     "backquote": "Loves nonsense and pointless things",
     "active": true,
-    "active_semesters": [1,1,1,1,1,0],
+    "active_semesters": [1,1,1,1,1,1],
     "socials": {
       "github": "https://github.com/nininhosam",
       "linkedin": "https://www.linkedin.com/in/vinícius-felipe-forcato-789462268/",
@@ -38,8 +38,8 @@
     "quote": "",
     "quote_author": "",
     "backquote": "",
-    "active": true,
-    "active_semesters": [1,1,1,1,0,0],
+    "active": false,
+    "active_semesters": [1,1,1,1,1,0],
     "socials": {
       "github": "https://github.com/oOutroMarcos",
       "linkedin": "https://www.linkedin.com/in/marcos-antonio-329449268/"
@@ -53,7 +53,7 @@
     "quote_author": "",
     "backquote": "",
     "active": true,
-    "active_semesters": [0,1,1,1,1,0],
+    "active_semesters": [0,1,1,1,1,1],
     "socials": {
       "github": "https://github.com/jaquemfvs",
       "linkedin": "https://www.linkedin.com/in/jaqueline-maria-fran%C3%A7a-veloso-silva/",
@@ -69,7 +69,7 @@
     "quote": "",
     "quote_author": "",
     "active": true,
-    "active_semesters": [0,0,0,1,1,0],
+    "active_semesters": [0,0,0,1,1,1],
     "socials": {
       "github": "https://github.com/Sandro-Pimentel",
       "linkedin": "https://www.linkedin.com/in/sandro-roberto-pimentel-junior-1287a3254/",
@@ -85,7 +85,7 @@
     "quote": "",
     "quote_author": "",
     "active": true,
-    "active_semesters": [0,0,0,1,1,0],
+    "active_semesters": [0,0,0,1,1,1],
     "socials": {
       "github": "https://github.com/VituuSaborito",
       "linkedin": "https://www.linkedin.com/in/vitor-henrique-saborito-216219268",
@@ -101,7 +101,7 @@
     "quote": "",
     "quote_author": "",
     "active": true,
-    "active_semesters": [0,0,0,1,1,0],
+    "active_semesters": [0,0,0,1,1,1],
     "socials": {
       "github": "https://github.com/joao-eduardo17",
       "linkedin": "https://www.linkedin.com/in/jo%C3%A3o-eduardo-messias-a3019125b/",
@@ -117,7 +117,7 @@
     "quote": "",
     "quote_author": "",
     "active": true,
-    "active_semesters": [0,0,1,0,1,0],
+    "active_semesters": [0,0,1,0,1,1],
     "socials": {
       "github": "https://github.com/Meowo2",
       "linkedin": "https://www.linkedin.com/in/arthur-sousa-silva/",
